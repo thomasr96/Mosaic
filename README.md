@@ -1,8 +1,8 @@
-# Mosaic-
+# Photographic Mosaic
 This program is designed to create a photographic mosaic, which is a photograph that is pixelated into a mosaic and each pixel region 
 contains a new picture. More can be read on the Wikipedia page, which gives an example (https://en.wikipedia.org/wiki/Photographic_mosaic).
 
-I detail the process below:
+# Procedure
 
 The Python file, mosaic.py, takes in the path to what the user wants to be the "main photograph" as well as well as either a path to a directory 
 containingimages that the user wants to be possible tiles or it takes a subject phrase, searches google images, downloads the images 
