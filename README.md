@@ -16,10 +16,47 @@ The program mosaic.py concludes with pasting the images by order with which they
 
 ## Examples
 
-⋅⋅⋅ Hello
-⋅⋅⋅ Hey
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one
+* My test image throughout this project has been the following image of Jesus Christ
 
+   ![alt text](https://imgur.com/J1Qyfbk.jpg "Main Image Target")
+   <img src="ihttps://imgur.com/J1Qyfbk.jpg" width="40%">
+  * I used the following weighting schemes, given in brackets in decreasing order of dominance for each color group 
+    * Cost metric weights [10/17,4/17,3/17]  
+      ![alt text](https://i.imgur.com/yWUr7NB.jpg)
+    * Cost metric weights [10/20,5/20,5/20]  
+      ![alt text](https://i.imgur.com/yWUr7NB.jpg)
+    * Cost metric weights [6/10,4/10, 0/10]  
+      ![alt text](https://i.imgur.com/yWUr7NB.jpg)
+      
+* The second test image was the following photo of a wheel on a motorcycle
+
+   ![alt text](https://i.imgur.com/v6g5npL.jpg "Main Image Target")
+  * I used the following weighting schemes, given in brackets in decreasing order of dominance for each color group 
+  
+    * Cost metric weights [10/17,5/17,2/17] with photo multiplier = 30  
+      ![alt text](https://i.imgur.com/7AQFA68.jpg)
+    * Cost metric weights [10/20,7/20,3/20] with photo multiplier = 30  
+      ![alt text](https://i.imgur.com/ZgYA825.jpg)
+    * Cost metric weights [10/22,8/22,4/22] with photo multiplier = 30  
+      ![alt text](https://i.imgur.com/Dn57H2s.jpg)
+
+* I also attempted the actual photo with which the wheel photo was cropped from
+
+  ![alt text](https://i.imgur.com/INQc4An.jpg "Main Image Target")
+  * Cost metric weights [10/17,5/17,2/17] with photo multiplier = 30  
+      ![alt text](https://i.imgur.com/B7kQJbi.jpg)
+      
+* The last test image was the following photo of a daisy flower
+
+   ![alt text](https://i.imgur.com/58AGP2W.jpg "Main Image Target")
+  * I used the following weighting schemes, given in brackets in decreasing order of dominance for each color group 
+    * Cost metric weights [10/16,4/16,2/16] with photo multiplier = 15  
+      ![alt text](https://i.imgur.com/R0FwbwG.jpg)
+    * Cost metric weights [10/20,7/20,3/20] with photo multiplier = 15  
+      ![alt text](https://i.imgur.com/4Ca1IaT.jpg)
+    * Cost metric weights [10/27,9/27,8/27] with photo multiplier = 15  
+      ![alt text](https://i.imgur.com/ytPcYYx.jpg)
+   
 ## Comments 
 
 This program has been able to create photo mosaics, where the main image is reasonably preserverd - that is, the user should be able to still identify what the main image is intended to be. I found that the use of the kmeans clustering algorithm effective, as it heavily simplifies color comparison between images. I also find using a cluster k value of k=4 to be most effective, as compared to higher k values. I additionaly experimented with the actual color comparison process. One possibly drawback to this process is the fact that clusters might be very close to each other.
