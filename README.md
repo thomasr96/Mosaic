@@ -26,9 +26,9 @@ python mosaic.py -p "/path/musician.jpg" -t "violin"
     * Cost metric weights [10/17,4/17,3/17]  
       ![alt text](https://i.imgur.com/yWUr7NB.jpg)
     * Cost metric weights [10/20,5/20,5/20]  
-      ![alt text](https://i.imgur.com/yWUr7NB.jpg)
+      ![alt text](https://imgur.com/DtNGyQK.jpg)
     * Cost metric weights [6/10,4/10, 0/10]  
-      ![alt text](https://i.imgur.com/yWUr7NB.jpg)
+      ![alt text](https://imgur.com/lfveZkD.jpg)
       
 * The second test image was the following photo of a wheel on a motorcycle with "falcon" as the subject
 
