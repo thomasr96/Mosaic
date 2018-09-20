@@ -45,7 +45,7 @@ python mosaic.py -p "/path/musician.jpg" -t "violin"
 * I also attempted the full sized photo with which the wheel photo was cropped from
 
   ![alt text](https://i.imgur.com/INQc4An.jpg "Main Image Target")
-  * Cost metric weights [10/17,5/17,2/17] with photo multiplier = 30  
+  * Cost metric weights [10/17,5/17,2/17] with photo multiplier = 15 
       ![alt text](https://i.imgur.com/B7kQJbi.jpg)
       
 * The last test image was the following photo of a daisy flower with "flower" as the subject
