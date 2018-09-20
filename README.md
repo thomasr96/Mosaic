@@ -6,11 +6,11 @@ contains a picture. More can be read on the [Wikipedia page](https://en.wikipedi
 
 The user must first have at Python 2.7.13 - the program runs on Python 3.x as well. The program additionally requires the following Python modules: numpy, sklearn, cv2, imutils, and PIL. Additionally, one must clone and download the [Github repository from Hardikvasa](https://github.com/hardikvasa/google-images-download). The directory from this repository titled, "google_images_download", must be included in the directory with the mosaic program. 
 
-If running the program with an existing image library, then specify the path to the main image with ` -p ` and the path to the image library directory with ` -l `, the following is an example
+If running the program with an existing image library, then specify the path to the main image with ` -p ` and the path to the image library directory with ` -l `, the following is an example.
 ```
 python mosaic.py -p "/path/beach.jpg" -l "/path/img_library_directory"
 ```
-If you wish the program to create an image library using Google Image search, then specify the path to the main image with ` -p ` and the subject to  ` -t `, the following is an example
+If you wish the program to create an image library using Google Image search, then specify the path to the main image with ` -p ` and the subject to  ` -t `, the following is an example.
 ```
 python mosaic.py -p "/path/musician.jpg" -t "violin"
 ```
