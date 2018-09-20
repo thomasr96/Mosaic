@@ -22,7 +22,7 @@ python mosaic.py -p "/path/musician.jpg" -t "violin"
 
    ![alt text](https://imgur.com/J1Qyfbk.jpg "Main Image Target")
    <img src="ihttps://imgur.com/J1Qyfbk.jpg" width="40%">
-  * I used the following weighting schemes, given in brackets in decreasing order of dominance for each color group 
+  * I used the following weighting schemes (discussed in next section), given in brackets in decreasing order of dominance for each color group 
     * Cost metric weights [10/17,4/17,3/17]  
       ![alt text](https://i.imgur.com/yWUr7NB.jpg)
     * Cost metric weights [10/20,5/20,5/20]  
