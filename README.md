@@ -4,13 +4,15 @@ contains a picture. More can be read on the [Wikipedia page](https://en.wikipedi
 
 ## How to Run
 
+The user must first have at least Python 2.7.13. The program additionally requires Python modules numpy, sklearn, cv2, imutils, and PIL. Additionally, one must clone and download the (repository from Hardikvasa)[https://github.com/hardikvasa/google-images-download]. The directory from this repository titled, "google_images_download", must be included in the directory with the mosaic program. 
+
 If running the program with an existing image library, then specify the path to the main image with ` -p ` and the path to the image library directory with ` -l `, the following is an example
 ```
-python mosaic.py -p "/path/img.jp" -l "/path/img_library_directory"
+python mosaic.py -p "/path/beach.jpg" -l "/path/img_library_directory"
 ```
 If you wish the program to create an image library using Google Image search, then specify the path to the main image with ` -p ` and the subject to  ` -l `, the following is an example
 ```
-python mosaic.py -p "/path/img.jp" -l "/path/img_library_directory"
+python mosaic.py -p "/path/musician.jpg" -t "violin"
 ```
 
 ## Procedure
