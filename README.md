@@ -10,7 +10,7 @@ If running the program with an existing image library, then specify the path to 
 ```
 python mosaic.py -p "/path/beach.jpg" -l "/path/img_library_directory"
 ```
-If you wish the program to create an image library using Google Image search, then specify the path to the main image with ` -p ` and the subject to  ` -l `, the following is an example
+If you wish the program to create an image library using Google Image search, then specify the path to the main image with ` -p ` and the subject to  ` -t `, the following is an example
 ```
 python mosaic.py -p "/path/musician.jpg" -t "violin"
 ```
