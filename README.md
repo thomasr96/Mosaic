@@ -2,6 +2,8 @@
 This program is designed to create a photographic mosaic, which is a photograph that is pixelated into a mosaic and each pixel region 
 contains a picture. More can be read on the [Wikipedia page](https://en.wikipedia.org/wiki/Photographic_mosaic), which gives an example.
 
+The user specifies an image to be used as the "main image" of the mosaic and can either specify the path to an image library for the possible mosaic tiles or input a subject so that the program will search for and download images from Google Images to create a usable image library. 
+
 ## How to Run
 
 The user must first have at least Python 2.7.13 installed on their machine - the program runs on Python 3.x as well. The program additionally requires the following Python modules: numpy, sklearn, cv2, imutils, and PIL. Additionally, one must clone and download the [Github repository from Hardikvasa](https://github.com/hardikvasa/google-images-download). The directory from this repository titled, "google_images_download", must be included in the directory with the mosaic program. The program is run in a command line interface. 
